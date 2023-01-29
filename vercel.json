@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path(.*)",
+      "destination": "https://dev.api.toel.app/user/:path"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

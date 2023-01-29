@@ -1,0 +1,22 @@
+html, #app, #app > div {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f2f5;
+}
+
+.tbodyDiv{
+  max-height: clamp(5em,100%,88%);
+  overflow: auto;
+  margin: 20px;
+}
